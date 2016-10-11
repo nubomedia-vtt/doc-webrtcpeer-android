@@ -1,14 +1,20 @@
 .. _README:
 
-******
-Readme
-******
-This project is part of NUBOMEDIA
-`www.nubomedia.eu <http://www.nubomedia.eu>`__
+********
+Overview
+********
 
+webrtcpeer-android is a Java library for Android. This library can be used to make p2p multimedia connections between peers connected to the same Kurento server. This documentation provides help on how to install and use the library.
 
-webrtcpeer-android
-==================
+Source code is available at
+https://github.com/nubomedia-vtt/webrtcpeer-android
 
-The repository contains documentation for installing and utilising the webrtcpeer-android library for Android. 
-The repository contains the documentation and the source code of the webrtcpeer-android implementation.
+Support is provided through the Nubomedia VTT Public Mailing List available at
+https://groups.google.com/forum/#!forum/nubomedia-vtt
+
+License
+=======
+
+Licensing information of this software can be found at
+
+https://github.com/nubomedia-vtt/webrtcpeer-android#licensing-and-distribution

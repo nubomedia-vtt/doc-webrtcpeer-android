@@ -2,24 +2,45 @@
 Installation Guide
 ******************
 
-This documents provides information how to compile the webrtcpeer-android library from the sources for your project.
+If you want to use the API in your own project through Maven or JCenter, please follow the User installation guide (the first section). If you wish to contribute to the source code or compile the library locally for your project, please follow the Developer installation guide (the next section below).
 
+User installation guide
+=======================
 
-Clone repository
-================
+This library is maintained in both JCenter and Maven. In order to use it in your project, you will need to add either one of these central repositories to your project. Please refer to the documentation of your IDE for more help. To add the dependency to this library, simple add the following dependency:
+
 .. code:: bash
-   
-    sudo apt-get install git
+
+    fi.vtt.nubomedia:webrtcpeer-android:[version]
+    
+Where [version] is the latest edition available in the repository. You may find the versions in
+
+https://mvnrepository.com/artifact/fi.vtt.nubomedia/webrtcpeer-android
+
+and 
+
+https://bintray.com/nubomedia-vtt/maven/webrtcpeer-android
+
+Developer installation guide
+============================
+
+This documents provides information how to compile the webrtcpeer-android library from the sources. This guide is also valid if you wish to compile the library locally for you project.
+
+First, make sure you have installed Git on your system. Help for Installing Git can be found in:
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Next, clone the project by using the command below:
+
+.. code:: bash
+
     git clone https://github.com/nubomedia-vtt/webrtcpeer-android.git
 
-Setup the developing environment by importing the project to Android Studio.
-If you want to build the project from source, you need to import the third-party library via Maven by adding the following line to the module's build.gradle file
+    
+If you wish to work without Git, there is also a ZIP link available:
 
-.. code:: java
-   
-    compile 'fi.vtt.nubomedia:utilities-android:1.0.0'
-
-
-Support is provided through the Nubomedia VTT Public Mailing List available at
+https://github.com/nubomedia-vtt/webrtcpeer-android/archive/master.zip
+    
+Setup the developing environment by importing the project to in your IDE. The project is an Android Studio project and should open easily. For other IDEs and more help, support is provided through the Nubomedia VTT Public Mailing List available at
 https://groups.google.com/forum/#!forum/nubomedia-vtt
 
